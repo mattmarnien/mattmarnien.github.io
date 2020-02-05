@@ -3,18 +3,8 @@ body{
 }
 
 nav{
-   height: auto;
+   
     
     background-color: floralwhite;
 }
 
-#nav-item {
-    border-right: 1px solid #000;
-}
-
-.name {
-    height: fit-content;
-    background-color: darkslateblue;
-    
-}
-}
