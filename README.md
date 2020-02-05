@@ -14,7 +14,7 @@ Mobile Screenshots
 
 Desktop Screenshots
 
-![Image of About Me](Assets/about-me.jpg)
-![Image of Portfolio](Assets/portfolio.jpg)
-![Image of Contact](Assets/contact.jpg)
+![Image of About Me](Assets/about-me.JPG)
+![Image of Portfolio](Assets/portfolio.JPG)
+![Image of Contact](Assets/contact.JPG)
 
