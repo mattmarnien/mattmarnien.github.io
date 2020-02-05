@@ -8,13 +8,13 @@ The deisgn makes use of responsive elements and functions on both desktop and mo
 
 Mobile Screenshots
 
-![Image of About Me - Mobile] Assets/mobile-about-me.png
-![Image of Portfolio - Mobile] Assets/mobile-portfolio.png
-![Image of Contact - Mobile] Assets/mobile-contact.png
+![Image of About Me - Mobile](Assets/mobile-about-me.png)
+![Image of Portfolio - Mobile](Assets/mobile-portfolio.png)
+![Image of Contact - Mobile](Assets/mobile-contact.png)
 
 Desktop Screenshots
 
-![Image of About Me] Assets/about-me.jpg
-![Image of Portfolio] Assets/portfolio.jpg
-![Image of Contact] Assets/contact.jpg
+![Image of About Me](Assets/about-me.jpg)
+![Image of Portfolio](Assets/portfolio.jpg)
+![Image of Contact](Assets/contact.jpg)
 
