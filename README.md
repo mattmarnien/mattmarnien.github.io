@@ -1,8 +1,8 @@
 # mattmarnien.github.io
 My Portfolio Page:
 
-This is an initial design for my GitHub portfolio, including an about me page, a portfolio page, and a contact page.
-The page is not yet functional beyond basic links to these three pages, but should be ready to grow as I add functionality and new projects.
+This is my updated portfolio and bio page all in one page. The design is simple, responsive, and has room to add more projects and functionality over time. 
+The page also now links to my gitHub profile, linkedin profile, and my resume.
 
 The deisgn makes use of responsive elements and functions on both desktop and mobile devices while maintaining the integrity of the elements.
 
