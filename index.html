@@ -1,81 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Matthew Marnien</title>
-  <link rel="stylesheet" href="bootstrap.min.css" type="text/css" />
-  <link rel="stylesheet" href="custom.css" type="text/css" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bf437d7780.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Matthew Marnien</title>
 </head>
+<body>
 
-<body id="override"></body>
+    <nav>
+        <div class="head-line blue darken-4">          
+        </div>
+        <div class="nav-wrapper blue darken-2 flow-text">
+          <a href="#!" class="brand-logo flow-text"><i class="fab fa-old-republic fa-2x hide-on-med-and-down"></i>Matthew Marnien</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fab fa-old-republic fa-2x"></i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="images/Marnien Resume.pdf" target="_blank"><i class="fas fa-clone fa-2x"></i> Resume</a></li>
+            <li><a href="https://github.com/mattmarnien" target="_blank"><i class="fab fa-github fa-2x"></i>GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/matthew-marnien-0a394239/" target="_blank"><i class="fab fa-linkedin fa-2x"></i> LinkedIn</a></li>
+           
+          </ul>
+        </div>
+        <div class="head-line blue darken-4">          
+        </div>
+        
+      </nav>
+    
+      <ul class="sidenav grey lighten-3" id="mobile-demo">
+        <li><a href="images/Marnien Resume.pdf" target="_blank"><i class="fas fa-clone fa-2x"></i>Resume</a></li>
+        <li><a href="https://github.com/mattmarnien" target="_blank"><i class="fab fa-github fa-2x"></i>GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/matthew-marnien-0a394239/" target="_blank"><i class="fab fa-linkedin fa-2x"></i>LinkedIn</a></li>
+        <hr>
+        <li> Contact Information:</li>
+        <li> Email: matt.marnien@gmail.com</li>
+        <li> Phone: ‪(267) 540-8490‬</li>
+        
+      </ul>
 
-<nav class="navbar navbar-light bg-light container-auto row py-0">
+      <div class="container">
+          <div class="row"></div>          
+      <div class="row device-width">
+        <div class="col s12 m6 l4">
+          <div class="card portCard z-depth-2 flow-text">
+            <div class="card-image z-depth-1 flow-text">
+             <a href="https://mattmarnien.github.io/sharkFin/" target="_blank"> <img class="portImage" src="images/sharkfin-Desktop.PNG">
+              <span class="card-title portCardTitle valign-wrapper flow-text">sharkFin</span></a>
+              <!-- <a class="btn-floating halfway-fab waves-effect waves-light light-blue"><i class="fas fa-plus"></i></a> -->
+            </div>
+            <!-- <div class="card-content white">
+              <p class="center"><strong>sharkFin</strong></p> -->
+            <!-- </div> -->
+          </div>
+        </div>
+      
 
-  <a class="navbar-brand col-md-2 offset-2 p-3 pr-3 bg-primary text-white text-center" href="#">
-    Matthew Marnien
-  </a>
+     
+        <div class="col s12 m6 l4">
+          <div class="card portCard z-depth-2 flow-text">
+            <div class="card-image z-depth-1 image-fluid">
+              <img class="portImage" src="images/PassGen.JPG">
+              <span class="card-title portCardTitle valign-wrapper flow-text">Password Generator</span>
+              <!-- <a class="btn-floating halfway-fab waves-effect waves-light light-blue lighten-1"><i class="fas fa-plus"></i></a> -->
+            </div>
+            <!-- <div class="card-content white">
+              <p><strong>Password Generator</strong>> </p> -->
+            <!-- </div> -->
+          </div>
+        </div>
+      
 
-  <ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link border-right" href="index.html">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link active border-right" href="Portfolio.html">Portfolio</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Contact.html">Contact</a>
-    </li>
-  </ul>
+      <div class="col s12 m6 l4">
+        <div class="card portCard z-depth-2 flow-text">
+          <div class="card-image z-depth-1">
+            <img class="portImage" src="images/dayPlanner.PNG">
+            <span class="card-title portCardTitle valign-wrapper flow-text">Daily Scheduler</span>
+            <!-- <a class="btn-floating halfway-fab waves-effect waves-light light-blue lighten-1"><i class="fas fa-plus"></i></a> -->
+          </div>
+          <!-- <div class="card-content white">
+            <p><strong>Day Planner</strong> </p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="row card col 12 bio z-depth-2 device-width bioCard">    
+      <img id="myImage" src="images/Me.jpg" alt="picture of me" class="col 4">
+      <div class='row'>
+        <h3 class="center "> About Me</h3>
+        <p class="bioText">I'm a new developer with years of experience in professional environments and research skills that make my google-fu exceptional. I've been an attorney since 2014 and worked both as a clerk in Philadelphia and an attorney in private practice.
+          I decided this past year I needed a change in my life, and chose to pursue coding, something I'd dabbled in for years. I'm currently immersed in a full time boot-camp program run at the University of Pennsylvania where I'm learning all the skills necessary to be a full-stack developer.
+        </p>
 
+      </div>
+    </div>
 
-
-</nav>
-
-<section class="container">
-  <section class="row p-4">
-    <section class="card col-md-6 p-0">
-      <main class="card-body bg-white ">
-        <h1 class="border-bottom border-primary pl-4"> About Me</h1>
-
-        <img src="Assets/Me.jpg" Alt="placeholder" class="float-left img-fluid w-50 p-4">
-        <!-- C/O https://placeholder.com/#How_To_Set_Image_Size -->
-
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum excepturi perferendis consequatur
-          praesentium? Dolorum consectetur illo provident voluptas dolore, amet, impedit laborum magni hic laboriosam
-          ullam, temporibus assumenda suscipit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, at
-          vitae. Eveniet minus deleniti odio optio! Corporis repudiandae magni quam deleniti tempore suscipit quae
-          provident. Odio dolorum pariatur explicabo hic!</p>
-
-
-        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima ut earum optio molestias, aut soluta ad qui
-          praesentium cupiditate adipisci, quam ex voluptatum exercitationem iure ipsum iste enim sunt fuga? Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Cumque quis ad impedit harum sapiente earum repellendus
-          architecto explicabo sit esse fugit ullam distinctio officia non magnam laudantium, consequatur neque
-          quisquam.</p>
-      </main>
-
-
-    </section>
-
-  </section>
-
-
-
-</section>
-
-<footer class="footer border-top text-center py-4 mt-auto">
-  <section>
-    Made by Matthew Marnien using Bootstrap, using Bootswatch's Lux theme.
-
-  </section>
-  
-</footer>
-
-
+      </div>
+    
 </body>
+<script src="materialize.min.js"></script>
+<script src="script.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+    });
+</script>
 
 </html>

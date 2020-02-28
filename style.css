@@ -1,0 +1,44 @@
+body {
+    background-color: #c7c6c6 ;
+}
+
+.head-line {
+    height: 5px;
+    width: 100%;
+}
+
+.portCard {
+    width: auto;
+    height: 250px;
+}
+
+.portImage {
+    width: auto;
+    height: 250px;
+}
+
+.portCardTitle {
+    background-color: #e0e0e0;
+    height: 50px;
+    width: 100%;
+    opacity: 90%;
+    color: black !important;
+    text-align: center !important;
+}
+
+#myImage {
+    height:250px;
+    width: 200px;
+
+}
+
+.bioCard {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bioText {
+    padding: 10px;
+}
