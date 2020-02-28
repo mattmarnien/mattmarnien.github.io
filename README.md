@@ -17,5 +17,5 @@ Mobile Screenshots
 Desktop Screenshots
 
 
-![Image of Portfolio](images/portDesktop.PNG)
+![Image of Portfolio](images/PortDesktop.PNG)
 
