@@ -64,6 +64,11 @@ body {
     margin-right: 5px;
 }
 
+.contactInfo2 {
+    padding-left: 5px;
+
+}
+
 @media (max-width: 1159px){
     .portCardTitle{
         height: 60px;
