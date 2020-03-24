@@ -1,5 +1,5 @@
 body {
-    background-color: #c7c6c6 ;
+    background-color: #e6dede ;
 }
 
 .head-line {
@@ -7,18 +7,31 @@ body {
     width: 100%;
 }
 
+
+.cornerIcon {
+    height:65px;
+    width: auto;
+    display: inline-block;
+
+}
+
 .portCard {
     width: auto;
     height: 250px;
 }
+ 
 
 .portImage {
     width: auto;
     height: 250px;
+    border-radius: 50%;
+ 
 }
 
+
+
 .portCardTitle {
-    background-color: #e0e0e0;
+    background-color: #cccbcb;
     height: 50px;
     width: 100%;
     opacity: 90%;
@@ -74,14 +87,44 @@ body {
 
 }
 
+@media (max-width: 1330px){
+    #nameText{
+        font-size: x-large;
+    }
+}
+
+@media (max-width: 1270px){
+    #nameText{
+        font-size: large;
+    }
+    .mainNavStuff{
+        font-size: medium;
+        
+    }
+    .navIcons {
+        height: auto;
+        width: 30px;
+    }
+}
+
 @media (max-width: 1159px){
     .portCardTitle{
         height: 60px;
     }
 }
 
+@media (max-width: 600px){
+    .cornerIcon{
+        height: 55px;
+        position: relative;
+        top: 1px;
+    }
+}
+
+
 @media (max-width: 461px){
-   .nameText {
+   #nameText {
         font-size: large !important;
     }
+ 
 }
